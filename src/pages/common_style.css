@@ -1,0 +1,28 @@
+.btn-style-black{
+    padding: 6px 20px;
+    min-width: 100px;
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    margin: 0 5px;
+  }
+  .delete-link-style{
+    color:inherit;
+    font-weight: inherit;
+    text-decoration: none;
+  }
+
+
+.arrange-row{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.arrange-row-justi{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}

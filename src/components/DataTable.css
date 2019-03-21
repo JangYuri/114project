@@ -1,0 +1,23 @@
+.TableWrapper {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.DataTable{
+    border: 0;
+    width: 100%;
+    min-width: 1500px;
+    table-layout: fixed;
+
+}
+
+.DataTable th{
+    background-color: rgb(121, 120, 120);
+    width: 100px;
+    height: 30px;
+  
+    font-size: 0.8rem;
+    color: #fff;
+    font-weight: 800;
+  }
+  

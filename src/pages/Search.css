@@ -1,0 +1,111 @@
+
+.Contents{
+    width: 100%;
+    min-width: 1000px;
+  }
+  .Filter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px;
+  }
+  .Filter span{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 10px;
+  }
+  .Filter-name{
+    color: #333;
+    font-size: 0.8rem;
+    font-weight: 700;
+    margin: auto 5px;
+  }
+  .Filter-option{
+    color: #333;
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin: auto 5px;
+  }
+  .Filter-inputbox{
+    border: 1px solid #999;
+    margin: auto 0;
+    padding: 2px;
+    width: 86px;
+    align-items: center;
+  }
+  .Filter-selectbox{
+    border: 1px solid #999;
+    margin: auto 0;
+    height: 22px;
+    width: 90px;
+    align-items: center;
+  }
+  .Filter-setting{
+    width: 40px;
+    height: 40px;
+    background-color: aqua;
+    margin: 0 20px;
+  }
+  
+  .tab2-dataTable{
+    width: 100%;
+    overflow: auto;
+  }
+  .tab2-dataTable-table{
+    width: 100%;
+    min-width: 1800px;
+    border: 1px solid rgb(212, 212, 212);
+  }
+  .tab2-dataTable-innertable{
+    width: 100%;
+    border: 1px solid rgb(212, 212, 212);
+  }
+  .tab2-dataTable-table th{
+    background-color: rgb(228, 228, 228);
+    color: #333;
+    font-size: 0.8rem;
+    font-weight: bold;
+    min-width: 50px;
+    padding: 7px 5px;
+  }
+  .tab2-dataTable-table td{
+    min-width: 130px;
+    color: #333;
+    font-size: 0.8rem;
+    font-weight: 400;
+    padding: 7px 5px;
+  }
+
+  .icon_calendar{
+    width: 20px;
+    height: 20px;
+  }
+  .table-inputbox-short{
+    border: 1px solid #999;
+    margin: auto 5px;
+    height: 22px;
+    width: 60px;
+    align-items: center;
+  }
+  .table-inputbox-long{
+    border: 1px solid #999;
+    margin: auto 5px;
+    height: 22px;
+    align-items: center;
+  }
+  .table-selectbox{
+    border: 1px solid #999;
+    margin: auto 0;
+    height: 22px;
+    width: 120px;
+    align-items: center;
+  }
+  .table-inputdate{
+    color: #333;
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin: auto 5px;
+  }
+  

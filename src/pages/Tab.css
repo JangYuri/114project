@@ -1,0 +1,43 @@
+
+.Contents{
+    width: 100%;
+    overflow-x: auto;
+  }
+  .Filter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px;
+  }
+  .Filter span{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 10px;
+  }
+  .Filter-name{
+    color: #333;
+    font-size: 0.8rem;
+    font-weight: 700;
+    margin: auto 5px;
+  }
+  .Filter-selectbox{
+    border: 1px solid #999;
+    margin: auto 0;
+    height: 22px;
+    width: 90px;
+    align-items: center;
+  }
+  .Filter-setting{
+    width: 40px;
+    height: 40px;
+    background-color: aqua;
+    margin: 0 20px;
+  }
+  
+  .tab-dataTable{
+    min-height: 300px;
+  }
+  
+  
